@@ -6,6 +6,9 @@ var toBuyList = [
 
 	{ name: "cookies", quantity: 10 },
 	{ name: "cookies", quantity: 10 },
+	{ name: "cookies", quantity: 10 },
+	{ name: "cookies", quantity: 10 },
+	{ name: "cookies", quantity: 10 },
 
 ];
 
@@ -41,7 +44,7 @@ function ShoppingListCheckOffService() {
 
   var boughtItems = boughtList;
 
-  
+
   service.buyItem = function (itemIndex) {
 	var item =  itemsToBuy[itemIndex];
 	service.addBoughtItem(item);
